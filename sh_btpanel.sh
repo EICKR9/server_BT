@@ -27,7 +27,7 @@ startTime=`date +%s`
 
 cd /www/server
 mv panel panel.bak
-wget -N --no-check-certificate https://bt.yseaer.cn/sh_btpanel/sh_btpanel.zip
+wget -N --no-check-certificate https://github.com/exer7/server_BT/blob/master/sh_btpanel.zip
 unzip -o sh_btpanel.zip
 rm -f sh_btpanel.zip
 rm /root/sh_btpanel.sh
